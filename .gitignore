@@ -1,0 +1,8 @@
+Script
+__pycache__
+.pytest_chache
+controller/__pycache__
+model/__pycache__
+schemas/__pycache__
+service/__pycache__
+tests/__pycache__
