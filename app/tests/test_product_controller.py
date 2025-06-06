@@ -44,6 +44,7 @@ def test_should_return_404_for_unknown_id(mocker):
     assert response.status_code == 404
     assert response.json()["detail"] == "Produit non trouvé"
 
+
 tests.append(test_should_return_404_for_unknown_id)
 
 if __name__ == "__main__":
